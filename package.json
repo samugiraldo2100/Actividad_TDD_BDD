@@ -1,0 +1,23 @@
+{
+  "name": "actividad_tdd_bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*.test.js",
+      "**/*.steps.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "jest-cucumber": "^4.5.0"
+  }
+}
